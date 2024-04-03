@@ -1,0 +1,149 @@
+@media only screen and (max-width: 1399px) and (orientation: portrait) {
+    div.welcomingPage {
+        color: white;
+        margin-top: 5vh;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 4vh;
+        padding: 0 10vh;
+        width: 100vw;
+        align-items: center;
+    }
+
+    h1 {
+        margin-bottom: 5vh;
+        color: rgb(244, 151, 38);
+        font-size: 10vh;
+        text-align: center;
+    }
+
+
+    .orange {
+        color: orange;
+    }
+
+    .welcomingParagraph1 {
+        font-size: 3vh;
+    }
+
+    .welcoming_page_img {
+        display: block;
+        height: 75vw;
+        margin: auto;
+        margin-top: -14vh;
+        margin-bottom: -2vh;
+        text-align: center;
+    }
+
+    span a {
+        color: rgb(244, 151, 38);
+        text-decoration: none;
+    }
+
+    span a:hover {
+        color: rgb(255, 192, 116);
+    }
+
+    .bottomParagraph {
+        margin-bottom: 5vh;
+    }
+}
+
+
+
+@media only screen and (max-width: 1399px) and (orientation: landscape) {
+    div.welcomingPage {
+        color: white;
+        margin-top: 5vh;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 4vh;
+        padding: 0 10vh;
+        width: 100vw;
+        align-items: center;
+    }
+
+    h1 {
+        margin-bottom: 5vh;
+        color: rgb(244, 151, 38);
+        font-size: 10vh;
+        text-align: center;
+    }
+
+
+    .orange {
+        color: orange;
+    }
+
+    .welcomingParagraph1 {
+        font-size: 3vh;
+    }
+
+    .welcoming_page_img {
+        display: block;
+        height: 35vw;
+        margin: auto;
+        margin-top: -10vw;
+        margin-bottom: -5vh;
+        text-align: center;
+    }
+
+    span a {
+        color: rgb(244, 151, 38);
+        text-decoration: none;
+    }
+
+    span a:hover {
+        color: rgb(255, 192, 116);
+    }
+
+    .bottomParagraph {
+        margin-bottom: 5vh;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1399px) {
+    div.welcomingPage {
+        color: white;
+        margin-top: 5vh;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 4vh;
+        padding: 0 10vh;
+    }
+
+    h1 {
+        color: rgb(244, 151, 38);
+        font-size: 4rem;
+        margin-top: -10px;
+    }
+
+
+    .orange {
+        color: orange;
+    }
+
+    .welcomingParagraph1 {
+        font-size: 3vh;
+    }
+
+    .welcoming_page_img {
+        height: 85vh;
+        float: right;
+        margin: -30.6vh -8vh -22vh -2vh;
+    }
+
+    span a {
+        color: rgb(244, 151, 38);
+        text-decoration: none;
+    }
+
+    span a:hover {
+        color: rgb(255, 192, 116);
+    }
+
+    .bottomParagraph {
+        margin-bottom: 2vh;
+    }
+
+}

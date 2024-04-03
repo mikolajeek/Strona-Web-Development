@@ -1,0 +1,308 @@
+@media only screen and (max-width: 1399px) and (orientation: portrait) {
+    div.welcomingPage {
+        color: white;
+        margin-top: 5vh;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 4vh;
+        padding: 0 10vh;
+        width: 100vw;
+        align-items: center;
+    }
+
+    h1 {
+        margin-bottom: 5vh;
+        color: rgb(244, 151, 38);
+        font-size: 7vh;
+        text-align: center;
+    }
+
+
+    .orange {
+        color: orange;
+    }
+
+    a.orange {
+        text-decoration: none;
+    }
+
+    .welcomingParagraph1 {
+        font-size: 3vh;
+    }
+
+    .welcoming_page_img {
+        display: block;
+        height: 55vw;
+        margin: auto;
+        margin-top: -1vh;
+        margin-bottom: 4vh;
+        text-align: center;
+    }
+
+    span a {
+        color: rgb(244, 151, 38);
+        text-decoration: none;
+    }
+
+    span a:hover {
+        color: rgb(255, 192, 116);
+    }
+
+    a.orange:hover {
+        color: rgb(255, 192, 116);
+    }
+
+    .bottomParagraph {
+        margin-bottom: 5vh;
+    }
+
+    div.selectTopic {
+        height: 40vh;
+        width: 32vh;
+        margin: auto;
+        margin-top: 10vh;
+        float: left;
+        text-align: center;
+    }
+
+    .selectTopicName {
+        color: rgb(244, 151, 38);
+    }
+
+    .selectingButtons {
+        margin-top: 4vh;
+        font-size: 2.8vh;
+        background-color: hsla(25, 47%, 57%, 0.329);
+        color: hsl(33, 100%, 50%);
+        border-radius: 1.4vh;
+        padding: 2vh;
+        border: none;
+    }
+
+    .selectingButtons:hover {
+        color: rgb(244, 151, 38);
+        background-color: #4f4a4a;
+        cursor: pointer;
+    }
+
+    select:focus {
+        color: rgb(244, 151, 38);
+        background-color: #4f4a4a;
+        outline: none;
+    }
+
+
+
+    .selectWrapper {
+        margin-top: 3.5vh;
+        margin-bottom: 2vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1399px) and (orientation: landscape) {
+    div.welcomingPage {
+        color: white;
+        margin-top: 5vh;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 4vh;
+        padding: 0 10vh;
+        width: 100vw;
+        align-items: center;
+    }
+
+    h1 {
+        margin-bottom: 5vh;
+        color: rgb(244, 151, 38);
+        font-size: 7vh;
+        text-align: center;
+    }
+
+
+    .orange {
+        color: orange;
+    }
+
+    a.orange {
+        text-decoration: none;
+    }
+
+    .welcomingParagraph1 {
+        font-size: 3vh;
+    }
+
+    .welcoming_page_img {
+        display: block;
+        height: 32vw;
+        margin: auto;
+        margin-top: -2vw;
+        margin-bottom: 0vh;
+        text-align: center;
+    }
+
+    span a {
+        color: rgb(244, 151, 38);
+        text-decoration: none;
+    }
+
+    span a:hover {
+        color: rgb(255, 192, 116);
+    }
+
+    a.orange:hover {
+        color: rgb(255, 192, 116);
+    }
+
+    .bottomParagraph {
+        margin-bottom: 5vh;
+    }
+
+
+    div.selectTopic {
+        height: 40vh;
+        width: 32vh;
+        margin: auto;
+        float: left;
+        text-align: center;
+    }
+
+    .selectTopicName {
+        color: rgb(244, 151, 38);
+    }
+
+    .selectingButtons {
+        margin-top: 4vh;
+        font-size: 2.8vh;
+        background-color: hsla(25, 47%, 57%, 0.329);
+        color: hsl(33, 100%, 50%);
+        border-radius: 1.4vh;
+        padding: 2vh;
+        border: none;
+    }
+
+    .selectingButtons:hover {
+        color: rgb(244, 151, 38);
+        background-color: #4f4a4a;
+        cursor: pointer;
+    }
+
+    select:focus {
+        color: rgb(244, 151, 38);
+        background-color: #4f4a4a;
+        outline: none;
+    }
+
+    #selectingBar2,
+    #selectingBar3,
+    #selectingBar4 {
+        margin-top: 9vh;
+    }
+
+    .selectWrapper {
+        margin-top: 3.5vh;
+        margin-bottom: 2vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1399px) {
+    div.welcomingPage {
+        color: white;
+        margin-top: 5vh;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 3.5vh;
+        padding: 0 10vh;
+    }
+
+    h1 {
+        color: rgb(244, 151, 38);
+        font-size: 4rem;
+    }
+
+
+    .orange {
+        color: orange;
+    }
+
+    a.orange {
+        text-decoration: none;
+    }
+
+
+    .welcoming_page_img {
+        height: 65vh;
+        float: right;
+        margin: -10vh 15vh 2vh vh;
+    }
+
+    span a {
+        color: rgb(244, 151, 38);
+        text-decoration: none;
+    }
+
+    span a:hover {
+        color: rgb(255, 192, 116);
+    }
+
+    a.orange:hover {
+        color: rgb(255, 192, 116);
+    }
+
+    .bottomParagraph {
+        margin-bottom: 2vh;
+    }
+
+    div.selectTopic {
+        height: 40vh;
+        width: 32vh;
+        margin: auto;
+        float: left;
+        text-align: center;
+    }
+
+    .selectTopicName {
+        color: rgb(244, 151, 38);
+        font-size: 3.5vh;
+    }
+
+    .selectingButtons {
+        margin-top: 4vh;
+        font-size: 2.8vh;
+        background-color: hsla(25, 47%, 57%, 0.329);
+        color: hsl(33, 100%, 50%);
+        border-radius: 1.4vh;
+        padding: 2vh;
+        border: none;
+    }
+
+    .selectingButtons:hover {
+        color: rgb(244, 151, 38);
+        background-color: #4f4a4a;
+        cursor: pointer;
+    }
+
+    select:focus {
+        color: rgb(244, 151, 38);
+        background-color: #4f4a4a;
+        outline: none;
+    }
+
+    #selectingBar2,
+    #selectingBar3,
+    #selectingBar4 {
+        margin-top: 8.21vh;
+    }
+
+    .selectWrapper {
+        margin-top: 3.5vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

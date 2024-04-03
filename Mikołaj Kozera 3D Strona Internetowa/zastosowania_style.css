@@ -1,0 +1,268 @@
+.hidden {
+    display: none;
+}
+
+.separatePointsBtn {
+    margin-top: 1vh;
+    font-size: 2.8vh;
+    font-family: 'Raleway';
+    font-weight: bold;
+    background-color: hsla(25, 47%, 57%, 0.329);
+    color: hsl(33, 100%, 50%);
+    border-radius: 1.4vh;
+    padding: 2vh;
+    border: none;
+}
+
+.separatePointsBtn:hover {
+    color: rgb(244, 151, 38);
+    background-color: #4f4a4a;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1399px) and (orientation: portrait) {
+    div.welcomingPage {
+        color: white;
+        margin-top: 5vh;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 4vh;
+        padding: 0 10vh;
+        width: 100vw;
+        align-items: center;
+    }
+
+    h1 {
+        margin-bottom: 5vh;
+        color: rgb(244, 151, 38);
+        font-size: 7vh;
+        text-align: center;
+    }
+
+
+    .welcomingParagraph1 {
+        font-size: 3vh;
+    }
+
+    .welcoming_page_img {
+        display: block;
+        height: 65vw;
+        margin: auto;
+        margin-top: -5vh;
+        text-align: center;
+    }
+
+    .orange {
+        color: rgb(244, 151, 38);
+    }
+
+    a.orange {
+        text-decoration: none;
+    }
+
+    a.orange:hover {
+        color: rgb(255, 192, 116);
+    }
+
+    .bottomParagraph {
+        margin-bottom: 5vh;
+    }
+
+
+
+
+    span.separatePointsTopic {
+        font-size: 7vh;
+        font-weight: bold;
+    }
+
+    .separatePointsDescription {
+        margin: 2.5vh auto;
+    }
+
+    div.separatePoints {
+        margin-top: -8vh;
+    }
+
+    .welcomingParagraph {
+        margin-top: -1.5vh;
+        margin-bottom: 4vh;
+    }
+
+    .fullDescription {
+        font-size: 2.9vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 4vh;
+    }
+
+
+    div.separatePointsMove {
+        margin-top: 10vh;
+    }
+
+
+    .welcomingParagraph {
+        margin-bottom: 7vh;
+    }
+}
+
+
+
+@media only screen and (max-width: 1399px) and (orientation: landscape) {
+    div.welcomingPage {
+        color: white;
+        margin-top: 5vh;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 4vh;
+        padding: 0 10vh;
+        width: 100vw;
+        align-items: center;
+    }
+
+    h1 {
+        margin-bottom: 5vh;
+        color: rgb(244, 151, 38);
+        font-size: 7vh;
+        text-align: center;
+    }
+
+    .welcomingParagraph1 {
+        font-size: 3vh;
+    }
+
+    .welcoming_page_img {
+        display: block;
+        height: 32vw;
+        margin: auto;
+        margin-top: -3.2vw;
+        margin-bottom: 0vh;
+        text-align: center;
+    }
+
+    .orange {
+        color: rgb(244, 151, 38);
+    }
+
+    a.orange {
+        text-decoration: none;
+    }
+
+    a.orange:hover {
+        color: rgb(255, 192, 116);
+    }
+
+    .bottomParagraph {
+        margin-bottom: 5vh;
+    }
+
+
+
+    span.separatePointsTopic {
+        font-size: 7vh;
+        font-weight: bold;
+    }
+
+    .separatePointsDescription {
+        margin: 2.5vh auto;
+    }
+
+    div.separatePoints {
+        margin-top: -8vh;
+    }
+
+    .welcomingParagraph {
+        margin-top: -1.5vh;
+        margin-bottom: 4vh;
+    }
+
+    .fullDescription {
+        font-size: 2.5vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 4vh;
+    }
+
+
+    div.separatePointsMove {
+        margin-top: 10vh;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1399px) {
+    div.welcomingPage {
+        color: white;
+        margin-top: 5vh;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 4vh;
+        padding: 0 10vh;
+    }
+
+    h1 {
+        color: rgb(244, 151, 38);
+        font-size: 4rem;
+        margin-top: -10px;
+    }
+
+
+
+    .welcomingParagraph1 {
+        font-size: 3vh;
+    }
+
+    .welcoming_page_img {
+        height: 75vh;
+        float: right;
+        margin: -15vh 15vh 2vh 5vh;
+    }
+
+
+    .orange {
+        color: rgb(244, 151, 38);
+    }
+
+    a.orange {
+        text-decoration: none;
+    }
+
+    a.orange:hover {
+        color: rgb(255, 192, 116);
+    }
+
+    .bottomParagraph {
+        margin-bottom: 2vh;
+    }
+
+
+
+    span.separatePointsTopic {
+        font-size: 6.4vh;
+        font-weight: bold;
+    }
+
+    .separatePointsDescription {
+        margin: 2.5vh auto;
+    }
+
+    div.separatePoints {
+        margin-top: -8vh;
+    }
+
+    .welcomingParagraph {
+        margin-top: -1.5vh;
+        margin-bottom: 4vh;
+    }
+
+    .fullDescription {
+        font-size: 2.5vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 4vh;
+    }
+
+
+    div.separatePointsMove {
+        margin-top: 10vh;
+    }
+
+}

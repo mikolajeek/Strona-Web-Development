@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+@media only screen and (max-width: 829px) {
+
+    body {
+        background-color: rgb(124, 113, 113);
+        overflow-x: hidden;
+    }
+
+    div.head {
+        background-color: rgb(21, 21, 21);
+        ;
+        color: white;
+        list-style: none;
+        display: inline-block;
+        align-items: center;
+        line-height: 7rem;
+        box-sizing: border-box;
+        overflow: hidden;
+        width: 105%;
+        border-bottom: 1px solid rgb(241, 111, 41);
+        border-top: 1px solid rgb(241, 111, 41);
+    }
+
+
+    span.hideSmall {
+        display: none;
+    }
+
+    li.home {
+        float: left;
+        background-color: rgb(21, 21, 21);
+        font-size: 1rem;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Lato';
+        transition: 0.2s linear;
+    }
+
+
+    nav ul {
+        list-style: none;
+        text-decoration: none;
+        padding: 0;
+    }
+
+
+
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        font-family: 'Lato';
+
+
+    }
+
+    nav ul li a {
+        display: block;
+        color: white;
+        border: 1px solid rgb(21, 21, 21);
+        ;
+        font-size: 2rem;
+        text-decoration: none;
+        transition: 0.5s;
+        text-align: center;
+        line-height: 8rem;
+    }
+
+
+
+
+    .home1 {
+        text-decoration: none;
+        transition: 0.5s;
+        font-size: 2.5rem;
+        width: 25vw;
+        border-left: 0px;
+
+    }
+
+    .narzedzia {
+        width: 18.5vw;
+    }
+
+    .zastosowania {
+        width: 18.5vw;
+    }
+
+    .historia {
+        width: 18.5vw;
+    }
+
+    .opis {
+        width: 18.5vw;
+        border-right: 0px;
+    }
+
+    div.head a:hover {
+        font-weight: bold;
+        background-color: rgb(99, 91, 91);
+        border: 1px solid rgb(241, 111, 41);
+    }
+
+    div.head .home1:hover {
+        border-left: 0px;
+        color: rgb(244, 151, 38);
+    }
+
+    .opis:hover {
+        border-right: 0px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 829px) {
+
+    body {
+        background-color: rgb(124, 113, 113);
+        overflow-x: hidden;
+
+    }
+
+    div.head {
+        background-color: rgb(21, 21, 21);
+        ;
+        color: white;
+        list-style: none;
+        display: inline-block;
+        align-items: center;
+        line-height: 5rem;
+        box-sizing: border-box;
+        overflow: hidden;
+        width: 105%;
+    }
+
+
+    li.home {
+        float: left;
+        background-color: rgb(21, 21, 21);
+        font-size: 1rem;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Lato';
+        transition: 0.2s linear;
+    }
+
+
+    nav ul {
+        list-style: none;
+        text-decoration: none;
+        padding: 0;
+    }
+
+
+
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        font-family: 'Lato';
+
+    }
+
+    nav ul li a {
+        display: block;
+        color: white;
+        border: 1px solid rgb(21, 21, 21);
+        font-size: 1.2rem;
+        text-decoration: none;
+        transition: 0.5s;
+        text-align: center;
+        border-top: 1px solid rgb(241, 111, 41);
+        border-bottom: 1px solid rgb(241, 111, 41);
+    }
+
+
+
+
+    .home1 {
+        text-decoration: none;
+        transition: 0.5s;
+        font-size: 2rem;
+        width: 25vw;
+        border-left: 0px;
+    }
+
+    .narzedzia {
+        width: 18.75vw;
+    }
+
+    .zastosowania {
+        width: 18.75vw;
+    }
+
+    .historia {
+        width: 18.75vw;
+    }
+
+    .opis {
+        width: 18.75vw;
+        border-right: 0px;
+    }
+
+    div.head a:hover {
+        font-weight: bold;
+        background-color: rgb(99, 91, 91);
+        border: 1px solid rgb(241, 111, 41);
+    }
+
+    div.head .home1:hover {
+        border-left: 0px;
+        color: rgb(244, 151, 38);
+    }
+
+    .opis:hover {
+        border-right: 0px;
+    }
+
+}
